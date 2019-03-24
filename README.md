@@ -4,6 +4,8 @@
 
 说明: 
 
+我使用的mac docker 是 Version 2.0.0.3 (31259), git clone 这个仓库后，需要使用 `git checkout v2.0.0.2` 切换到这个分支后再使用`./load_images.sh`
+
 * 需安装 Docker for Mac或者Docker for Windows，如果没有请下载[下载 Docker CE最新版本](https://store.docker.com/search?type=edition&offering=community)
 * 当前 master 分支已经在 Docker for Mac/Windows 2.0.1.x (包含 Docker CE 18.09.1 和 Kubernetes 1.13.0) 版本测试通过
   * 如果你希望使用 Docker for Mac/Windows 2.0.0.2/2.0.0.3 (包含 Docker CE 18.09.1 和 Kubernetes 1.10.11) , 请使用下面命令切换 [v2.0.0.2 分支](https://github.com/AliyunContainerService/k8s-for-docker-desktop/tree/v2.0.0.2) ```git checkout v2.0.0.2```
